@@ -1,10 +1,10 @@
 {
-  "name": "xml-demo-package",
+  "name": "atomic-tei",
   "version": "0.0.1",
   "description": "Demo Atom Package providing a derived XML Grammar and Validation Rules",
   "keywords": [
   ],
-  "repository": "https://github.com/aerhard/xml-demo-package",
+  "repository": "https://github.com/neelsmith/atomic-tei",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

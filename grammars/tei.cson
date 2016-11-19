@@ -1,13 +1,13 @@
 
 # the name of the grammar's scope - validation with linter-autocomplete-jing requires a name starting with text.xml.
-'scopeName': 'text.xml.demoxy'
+'scopeName': 'text.xml.tei'
 
 # the name of the grammar (displayed in Atom's grammar selector in the bottom toolbar)
-'name': 'DEMO XY XML'
+'name': 'TEI all'
 
 # an array of file extensions associated with this grammar
 'fileTypes': [
-  'demoxyext'
+  'tei'
 ]
 
 # include the patterns from text.xml

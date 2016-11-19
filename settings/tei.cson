@@ -4,12 +4,12 @@
       {
         priority: 1
         test:
-          grammarScope: "text.xml.demoxy"
+          grammarScope: "text.xml.tei"
         outcome:
           schemaProps: [
             {
               lang: "rng"
-              path: "../schemata/demoxy.rng"
+              path: "../teischemas/xml/tei/custom/schema/relaxng/tei_all.rng"
             }
           ]
       }
