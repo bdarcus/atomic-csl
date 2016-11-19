@@ -1,33 +1,26 @@
-# xml-demo-package
+# atomic-tei
 
-Demo Atom package associating a custom file extension with a new grammar derived from `text.xml`, an XML schema and rule settings for validation and autocomplete with [linter-autocomplete-jing](https://github.com/aerhard/linter-autocomplete-jing).
+This is an Atom package providing a validating editing environment for documents conforming to a TEI P5 schema.  It is a fork of <https://github.com/aerhard/xml-demo-package>, configured to use TEI P5's "TEI all" `.rng` schema.
 
-## Structure
 
-### grammars/demoxy.cson
+## Requirements
 
-A custom grammar with the scope name `text.xml.demoxy` specifying the extension `.demoxyext`
+-  [Atom Editor](https://atom.io/), with [linter-autocomplete-jing](https://github.com/aerhard/linter-autocomplete-jing) installed.
 
-### schemata/demoxy.rng
 
-A schema used for validation and autocomplete
+## One-time setup
 
-### settings/demoxy.cson
+From a terminal in this directory, run
 
-A settings file providing a rule to associate the schema at `schemata/demoxy.rng` with the grammar scope `text.xml.demoxy`
+    apm link
 
-### test/test.demoxyext
 
-A test XML file
+## Usage
 
-### package.json
+XML files with filename extension `.tei` will be validated against TEI P5 as you edit.  You can use the template file in `xml/template.tei`.
 
-## Setup
 
-This package is not published in the Atom Package Repository; to use it as a template or demo, clone the project from GitHub, run `apm link` from the project's root directory and make sure [linter-autocomplete-jing](https://github.com/aerhard/linter-autocomplete-jing) is installed in Atom.
 
-## Notes
+## More information
 
-In case you want to specify validation rules for files with common XML extensions (as defined in the `language-xml` package) you can omit the grammar definition in `grammars`.
-
-A more detailed description of the validation rules is available at  https://github.com/aerhard/linter-autocomplete-jing/blob/master/README.md#schema-rules.
+The three directories `grammar`, `settings` and `teischemas` configure the Atom package.  If you want to modify settings (e.g., to configure different file extensions for validation with TEI), please see the documentation for the source package this is cloned from:  <https://github.com/aerhard/xml-demo-package>.
