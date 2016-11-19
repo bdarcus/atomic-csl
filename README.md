@@ -17,7 +17,7 @@ From a terminal in this directory, run
 
 ## Usage
 
-XML files with filename extension `.tei` will be validated against TEI P5 as you edit.  You can use the template file in `xml/template.tei`.
+XML files with filename extension `.tei` will be validated against TEI P5's `tei_all.rng` schema as you edit.  You can use the template file in `xml/template.tei`.
 
 
 
