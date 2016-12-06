@@ -14,6 +14,8 @@ From a terminal in this directory, run
 
     apm link
 
+NB: if you decide to move this folder, you'll have to rerun `apm link` from the new location.
+
 
 ## Usage
 
