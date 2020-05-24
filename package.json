@@ -1,10 +1,9 @@
 {
-  "name": "atomic-tei",
+  "name": "atomic-csl",
   "version": "0.0.1",
-  "description": "Demo Atom Package providing a derived XML Grammar and Validation Rules",
-  "keywords": [
-  ],
-  "repository": "https://github.com/neelsmith/atomic-tei",
+  "description": "Atom Package providing CSL XML Grammar and Validation Rules",
+  "keywords": ["CSL", "XML", "citations"],
+  "repository": "https://github.com/bdarcus/atomic-csl",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
