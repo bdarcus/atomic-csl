@@ -35,5 +35,5 @@ The three directories `grammar`, `settings` and `schemas` configure the Atom pac
 ## TODO
 
 * Fix auto grammar application based on file extension
-* Embedded schematron validation?
+* Schematron validation?
 * Add CSL templates and maybe scripts to make creation of new, and editing existing, styles easier. For example, select author-date and apa as template, add updated element with correct datetime, etc.
