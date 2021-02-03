@@ -21,6 +21,13 @@ From a terminal in this directory, run
 
 NB: if you decide to move this folder, you'll have to rerun `apm link` from the new location.
 
+## Updating dependencies
+
+To update the required dependencies, simply run this from the same directory as initial setup.
+
+``` console
+apm update
+```
 
 ## Usage
 
